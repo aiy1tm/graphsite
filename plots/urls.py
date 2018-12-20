@@ -6,5 +6,8 @@ from . import views
 app_name = 'plots'
 
 urlpatterns = [
-	path('',views.index,name='index'),
+	path('',views.index),
+	path('mortgage',views.index),
+	path('retirement', views.retirement),
+	path('allocation',views.allocation)
 ]
