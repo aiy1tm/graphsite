@@ -25,7 +25,7 @@ SECRET_KEY = '*#f^4#fx^+stdy5s*5o55@n6v1vw46o9*ry!t5-jj#-cd!2&=c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dj-fin.heruokuapp.com']
+ALLOWED_HOSTS = ['.heruokuapp.com']
 
 
 # Application definition
@@ -133,4 +133,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, "live-static-files", "static-root")
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static').replace('\\','/'),]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static').replace('\\','/')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static').replace('\\','/')
