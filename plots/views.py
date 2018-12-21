@@ -33,11 +33,11 @@ def make_mortgage_plot(int_r_pct=4.5,tax_pct=1.2, down_pct=20,hoa=0,years=30,pmt
 		x_axis_label='Purchase Price [k$]', y_axis_label='Monthly Outlay [$]',
 		title="Monthly Payment vs Purchase Price")
 
-	p1.title.text_font_size = '20pt'
-	p1.xaxis.axis_label_text_font_size = '20pt'
-	p1.yaxis.axis_label_text_font_size = '20pt'
-	p1.xaxis.major_label_text_font_size = "20pt"
-	p1.yaxis.major_label_text_font_size = "20pt"
+	p1.title.text_font_size = '16pt'
+	p1.xaxis.axis_label_text_font_size = '16pt'
+	p1.yaxis.axis_label_text_font_size = '16pt'
+	p1.xaxis.major_label_text_font_size = "16pt"
+	p1.yaxis.major_label_text_font_size = "16pt"
 	p1.line(x_vals, y_vals, line_width=3, color="red", alpha=0.5)
 
 
@@ -69,11 +69,11 @@ def make_retirement_plot(cagr = 5.5,egg = 5500,spend = 33000, investment = 5500,
 		x_axis_label='Year', y_axis_label='Retirement Total [k$]',
 		title="Retirement Investment TImeline")
 
-	p1.title.text_font_size = '20pt'
-	p1.xaxis.axis_label_text_font_size = '20pt'
-	p1.yaxis.axis_label_text_font_size = '20pt'
-	p1.xaxis.major_label_text_font_size = "20pt"
-	p1.yaxis.major_label_text_font_size = "20pt"
+	p1.title.text_font_size = '16pt'
+	p1.xaxis.axis_label_text_font_size = '16pt'
+	p1.yaxis.axis_label_text_font_size = '16pt'
+	p1.xaxis.major_label_text_font_size = "16pt"
+	p1.yaxis.major_label_text_font_size = "16pt"
 	p1.line(x_vals, y_vals, line_width=3, color="blue", alpha=0.5)
 	p1.line(x_vals,[0.1*spend/swr]*len(x_vals),line_width=3, color="green", alpha=0.5)
 
