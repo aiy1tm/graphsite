@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*#f^4#fx^+stdy5s*5o55@n6v1vw46o9*ry!t5-jj#-cd!2&=c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['dj-fin.heruokuapp.com']
 
